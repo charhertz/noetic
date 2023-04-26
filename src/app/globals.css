@@ -28,3 +28,18 @@ body {
 .sm-cover {
   @apply bg-gradient-to-r from-gray-100 via-gray-100 group-hover:from-gray-200 group-hover:via-gray-200 dark:from-gray-700 dark:via-gray-700 dark:group-hover:from-gray-600 dark:group-hover:via-gray-600 to-transparent;
 }
+
+.prose a,
+a.prose {
+	@apply underline decoration-dashed decoration-1 underline-offset-4 hover:opacity-50;
+}
+
+.prose ul,
+ul.prose {
+	@apply ml-5 list-outside list-disc;
+}
+
+.prose ol,
+ol.prose {
+	@apply ml-5 list-outside list-decimal;
+}

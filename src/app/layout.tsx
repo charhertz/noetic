@@ -13,9 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
-        <Providers>
-          {children}
+     <body className="flex h-auto min-h-full justify-center p-6 font-sans sm:px-14 transition-colors duration-500">
+			<Providers>
+          <div className="flex w-full max-w-[64ch] flex-col justify-between">
+						<main className="flex w-full flex-col items-start">{children}</main>
+					</div>
         </Providers>
       </body>
     </html>
