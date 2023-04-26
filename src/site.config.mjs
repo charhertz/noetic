@@ -28,6 +28,8 @@ const siteConfig = {
 	authorLink: "https://devscharlie.com",
 	authorEmail: "hi@devscharlie.com",
 	timeZone: "Asia/Shanghai",
+	since: 2023, // If leave this empty, current year will be used.
+  postsPerPage: 10,
 	notionDatabaseId: process.env.NOTION_DATABASE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
 }
