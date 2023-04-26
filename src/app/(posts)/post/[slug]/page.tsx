@@ -3,6 +3,7 @@ import TOC from "@/components/Toc";
 import { getSinglePostContent, getSinglePostInfo, getTOCFromBlocks } from "@/lib/notion";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+
 export default async function Page({ params }: { params: { slug: string } }) {
 	const fetchPage = getSinglePostInfo(params.slug, true)
 	const fetchBlocks = getSinglePostContent(params.slug, true)
@@ -22,7 +23,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 				height={page.cover.height}
 			/>
 			<h1 className="my-6 self-start text-4xl">{page.title}</h1>
-			<PostContent blocks={blocks} />
+			<PostContent blocks={blocks} removeAnchor={false} />
 			<TOC toc={toc} className="hidden xl:block" />
 		</>
 	)

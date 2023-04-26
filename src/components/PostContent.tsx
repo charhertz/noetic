@@ -365,8 +365,8 @@ const CodeBlock = async ({
 				themeBg === "#ffffff" || themeBg === "#fff"
 					? "#fafafa"
 					: themeBg === "#121212"
-					? "#24292e"
-					: themeBg,
+						? "#24292e"
+						: themeBg,
 			elements: {
 				pre({ style, children }) {
 					return `<pre class="p-4 rounded-md my-2 overflow-y-auto" style="tab-size: 2; ${style}">${children}</pre>`
@@ -537,7 +537,7 @@ const RenderBlock = ({
 	}
 }
 
-export default async function PostContent({
+export default (async function PostContent({
 	blocks,
 	removeAnchor = false,
 }: {
@@ -590,7 +590,9 @@ export default async function PostContent({
 				})}
 		</main>
 	)
-}
+}) as unknown as (props: {
+	blocks: PostContentType
+} & TitleConfig) => JSX.Element;
 
 function isJsxElementABulletedList(element: JSX.Element) {
 	return element.props.block.cur.type === "bulleted_list_item"

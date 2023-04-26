@@ -4,7 +4,11 @@ const withMDX = require('@next/mdx')()
 const nextConfig = {
   experimental: {
     appDir: true,
-    mdxRs: true
+    mdxRs: true,
+		serverComponentsExternalPackages: [
+			"shiki",
+			"@notionhq/client"
+		]
   },
   images: {
 		remotePatterns: [
