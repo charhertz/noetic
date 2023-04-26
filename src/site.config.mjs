@@ -23,7 +23,7 @@ const siteConfig = {
 		light: "github-light",
 		dark: "github-dark",
 	},
-	siteUrl: "https://tailno.vercel.app",
+	siteUrl: "https://noetic.vercel.app",
 	authorName: "Charlie",
 	authorLink: "https://devscharlie.com",
 	authorEmail: "hi@devscharlie.com",
