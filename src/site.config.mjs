@@ -8,15 +8,15 @@ const siteConfig = {
 	links: [
 		{
 			type: "GitHub",
-			url: "https://github.com/devscharlie",
+			url: "https://github.com/charhertz",
 		},
 		{
 			type: "Twitter",
-			url: "https://twitter.com/DevsCharlie",
+			url: "https://twitter.com/charhertz",
 		},
 		{
 			type: "Email",
-			url: "mailto:hi@devscharlie.com",
+			url: "mailto:hi@charhertz.com",
 		},
 	],
 	codeTheme: {
@@ -25,8 +25,8 @@ const siteConfig = {
 	},
 	siteUrl: "https://noetic.vercel.app",
 	authorName: "Charlie",
-	authorLink: "https://devscharlie.com",
-	authorEmail: "hi@devscharlie.com",
+	authorLink: "https://charhertz.com",
+	authorEmail: "hi@charhertz.com",
 	timeZone: "Asia/Shanghai",
 	since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 10,

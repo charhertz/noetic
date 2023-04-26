@@ -14,4 +14,4 @@ An Open-Source Blog Powered by Next.js 13 and Notion.
 
 ### Quick Start
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevscharlie%2Fnoetic&env=NOTION_ACCESS_TOKEN,NOTION_DATABASE_ID)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcharhertz%2Fnoetic&env=NOTION_ACCESS_TOKEN,NOTION_DATABASE_ID)
