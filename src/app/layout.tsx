@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import Header from '@/components/Header'
 import './globals.css'
 import { Providers } from './providers'
 
@@ -17,6 +18,7 @@ export default function RootLayout({
      <body className="flex h-auto min-h-full justify-center p-6 font-sans sm:px-14 transition-colors duration-500">
 			<Providers>
           <div className="flex w-full max-w-[64ch] flex-col justify-between">
+            <Header />
 						<main className="flex w-full flex-col items-start">{children}</main>
             <Footer />
 					</div>
