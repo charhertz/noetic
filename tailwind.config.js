@@ -5,6 +5,10 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: 'class',
+  future: {
+    hoverOnlyWhenSupported: true
+  },
   theme: {
     extend: {
       backgroundImage: {
@@ -14,6 +18,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-  darkMode: 'class'
+  plugins: []
 }

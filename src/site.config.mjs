@@ -28,6 +28,8 @@ const siteConfig = {
 	authorLink: "https://devscharlie.com",
 	authorEmail: "hi@devscharlie.com",
 	timeZone: "Asia/Shanghai",
+	notionDatabaseId: process.env.NOTION_DATABASE_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
 }
 
 export default siteConfig

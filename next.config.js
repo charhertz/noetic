@@ -6,6 +6,14 @@ const nextConfig = {
     appDir: true,
     mdxRs: true
   },
+  images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "**",
+			},
+		],
+	},
 }
 
 module.exports = withMDX(nextConfig)
