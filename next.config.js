@@ -5,6 +5,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
     mdxRs: true,
+		swcMinify: true,
 		serverComponentsExternalPackages: [
 			"shiki",
 			"@notionhq/client"

@@ -10,7 +10,7 @@ import {
 	RssIcon,
 } from 'lucide-react'
 import ToggleTheme from './ToggleTheme'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import Avatar from '@/components/Avatar'
 
 const NavBar = () => {
@@ -50,7 +50,7 @@ const NavBar = () => {
 		},
 	]
 	return (
-		<motion.div className='flex'>
+		<div className='flex'>
 			{/* Desktop Menu */}
 			<ul className='hidden md:flex md:gap-1'>
 				{links.map(
@@ -106,7 +106,7 @@ const NavBar = () => {
 					</div>
 				)}
 			</div>
-		</motion.div>
+		</div>
 	)
 }
 
